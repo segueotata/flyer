@@ -90,7 +90,6 @@ header nav a:is(:hover, :focus) {
 .section-form {
   display: flex;
   justify-content: center;
-  /* align-items: center; */
   padding: 2em 4em;
 }
 
@@ -189,7 +188,7 @@ form button {
 form button:is(:hover, :focus) {
   cursor: pointer;
   box-shadow: 0 0 1em #ff00ffaa;
-  border: 2px solid #ff00ff;
+  border: 2px solid #ff00ff50;
   letter-spacing: 0.1em;
   width: 40%;
 }
@@ -222,5 +221,5 @@ input {
 textarea:is(:hover, :focus, :valid),
 input:is(:hover, :focus, :valid) {
   box-shadow: 0 0 1em #ff00ffaa;
-  border: 2px solid #ff00ff;
+  border: 2px solid #ff00ff50;
 }
