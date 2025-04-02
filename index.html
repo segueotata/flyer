@@ -5,44 +5,98 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Brvz.dev</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
   </head>
   <body>
     <header>
       <p>Brvz.<span>dev</span></p>
       <nav>
-        <a href="#">Sobre</a>
-        <a href="#">Contato</a>
+        <a href="#whoami">Sobre</a>
+        <a href="#contato">Contato</a>
       </nav>
     </header>
     <section id="whoami" class="section-title section-1">
-      <p>Desenvolvedor <span>Front-End</span></p>
+      <p>DESENVOLVEDOR <span>FRONT-END</span></p>
     </section>
     <section class="section-content section-2">
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
-        quidem sed quis, excepturi eligendi illum praesentium id nobis, maxime
-        magni nulla, aliquid aliquam nisi fugiat neque a eveniet ipsam possimus.
+        Prazer, <span>Braz</span>!<br />Sou um desenvolvedor frontend com
+        expertise na criação de interfaces <span>modernas</span>,
+        <span>responsivas</span> e <span>intuitivas</span>. Meu foco é
+        proporcionar experiências digitais sofisticadas, alinhando design,
+        desempenho e acessibilidade para oferecer soluções eficientes e
+        envolventes.
       </p>
     </section>
     <section id="whoami" class="section-title section-1">
-      <p>Desenvolvedor <span>Front-End</span></p>
+      <p>MEUS <span>STACKS</span></p>
     </section>
-    <section class="section-content section-2">
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
-        quidem sed quis, excepturi eligendi illum praesentium id nobis, maxime
-        magni nulla, aliquid aliquam nisi fugiat neque a eveniet ipsam possimus.
-      </p>
+    <section class="section-content section-3 section-cards">
+      <div class="card">
+        <i class="fa-brands fa-js"></i>
+        <p>JavaScript</p>
+      </div>
+      <div class="card">
+        <i class="fa-brands fa-html5"></i>
+        <p>HTML5</p>
+      </div>
+      <div class="card">
+        <i class="fa-brands fa-css3"></i>
+        <p>CSS3</p>
+      </div>
+      <div class="card">
+        <i class="fa-brands fa-vuejs"></i>
+        <p>VUE3</p>
+      </div>
+      <div class="card">
+        <i class="fa-brands fa-node"></i>
+        <p>NODE</p>
+      </div>
     </section>
-    <section id="whoami" class="section-title section-1">
-      <p>Desenvolvedor <span>Front-End</span></p>
+    <section class="section-1 section-title">
+      <p>ENTRE EM <span>CONTATO</span></p>
     </section>
-    <section class="section-content section-2">
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
-        quidem sed quis, excepturi eligendi illum praesentium id nobis, maxime
-        magni nulla, aliquid aliquam nisi fugiat neque a eveniet ipsam possimus.
-      </p>
+
+    <section class="section-content section-form" id="contato">
+      <div class="text-content">
+        <p>
+          Entre em contato por <span>E-mail</span> e solicite um orçamento sem
+          compromisso.
+        </p>
+        <p>
+          Ou, se preferir,
+          <a href="https://wa.me/5518981438263" target="_blank"
+            ><i class="fa-solid fa-link"></i>envie-me uma mensagem</a
+          >!
+        </p>
+      </div>
+      <form action="https://formsubmit.co/brazmagri22@gmail.com" method="post">
+        <input
+          type="name"
+          name="name"
+          id="inputName"
+          required
+          placeholder="Seu nome completo"
+        />
+        <input
+          type="email"
+          name="email"
+          id="inputEmail"
+          required
+          placeholder="Seu e-mail"
+        />
+        <textarea
+          name="message"
+          id="inputMessage"
+          style="resize: none"
+          required
+          placeholder="Escreva aqui sua mensagem"
+        ></textarea>
+        <button type="submit">Enviar</button>
+      </form>
     </section>
   </body>
 </html>
